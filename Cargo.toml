@@ -1,0 +1,12 @@
+[package]
+name = "dlp_ldpreload_redirect_read"
+version = "1.0.0"
+authors = ["David Jia Wei Li <jiawei.davidli@gmail.com>"]
+
+[lib]
+name = "redirect_read"
+crate_type = ["dylib"]
+
+[dependencies]
+libc = "0.2"
+redhook = "0.1.1"
